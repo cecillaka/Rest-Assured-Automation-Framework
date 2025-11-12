@@ -1,0 +1,8 @@
+com\api\automation\core\SessionContext.class
+com\api\automation\core\BaseApi.class
+com\api\automation\utils\ConfigReader.class
+com\api\automation\constants\FrameworkConstants.class
+com\api\automation\core\AllureRestAssuredFilter.class
+com\api\automation\core\ApiResponseValidator.class
+com\api\automation\core\ApiRequestBuilder.class
+com\api\automation\pojo\RequestPayload.class
