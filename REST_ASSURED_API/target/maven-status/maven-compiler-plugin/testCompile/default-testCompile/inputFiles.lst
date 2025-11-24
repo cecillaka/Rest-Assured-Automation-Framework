@@ -1,5 +1,7 @@
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\test\java\com\api\automation\base\BaseTest.java
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\test\java\com\api\automation\listeners\TestListener.java
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\test\java\com\api\automation\tests\SampleApiTest.java
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\test\java\com\api\automation\utils\JsonUtils.java
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\test\java\com\api\automation\utils\PayloadGenerator.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\test\java\com\api\automation\base\BaseTest.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\test\java\com\api\automation\listeners\TestListener.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\test\java\com\api\automation\tests\ActivityDemoApiTest.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\test\java\com\api\automation\tests\DogAPITest.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\test\java\com\api\automation\tests\SampleApiTest.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\test\java\com\api\automation\utils\JsonUtils.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\test\java\com\api\automation\utils\PayloadGenerator.java

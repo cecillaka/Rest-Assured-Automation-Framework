@@ -1,29 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-12T02:38:40 SAST" name="API Test Suite" finished-at="2025-11-12T02:38:45 SAST" duration-ms="5037">
+  <suite started-at="2025-11-24T23:39:52 SAST" name="API Test Suite" finished-at="2025-11-24T23:39:59 SAST" duration-ms="7092">
     <groups>
     </groups>
-    <test started-at="2025-11-12T02:38:40 SAST" name="API Tests" finished-at="2025-11-12T02:38:45 SAST" duration-ms="5037">
-      <class name="com.api.automation.tests.SampleApiTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.api.automation.tests.SampleApiTest@6af9fcb2]" started-at="2025-11-12T02:38:40 SAST" name="setup" finished-at="2025-11-12T02:38:41 SAST" duration-ms="502" status="PASS">
+    <test started-at="2025-11-24T23:39:52 SAST" name="API Tests" finished-at="2025-11-24T23:39:59 SAST" duration-ms="7092">
+      <class name="com.api.automation.tests.ActivityDemoApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.api.automation.tests.ActivityDemoApiTest@291a7e3c]" started-at="2025-11-24T23:39:52 SAST" name="setup" finished-at="2025-11-24T23:39:53 SAST" duration-ms="647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getUsersTest()[pri:0, instance:com.api.automation.tests.SampleApiTest@6af9fcb2]" started-at="2025-11-12T02:38:41 SAST" name="getUsersTest" description="Register A Users" finished-at="2025-11-12T02:38:43 SAST" duration-ms="2680" status="PASS">
+        <test-method signature="getActivities()[pri:1, instance:com.api.automation.tests.ActivityDemoApiTest@291a7e3c]" started-at="2025-11-24T23:39:53 SAST" name="getActivities" description="Get Activities" finished-at="2025-11-24T23:39:56 SAST" duration-ms="2705" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUsersTest -->
-        <test-method signature="postLogInAsUserCreated()[pri:1, instance:com.api.automation.tests.SampleApiTest@6af9fcb2]" started-at="2025-11-12T02:38:43 SAST" name="postLogInAsUserCreated" description="Log In As A Created Users" finished-at="2025-11-12T02:38:45 SAST" duration-ms="1711" status="PASS">
+        </test-method> <!-- getActivities -->
+        <test-method signature="postActivity()[pri:2, instance:com.api.automation.tests.ActivityDemoApiTest@291a7e3c]" started-at="2025-11-24T23:39:56 SAST" name="postActivity" description="Post Activity" finished-at="2025-11-24T23:39:57 SAST" duration-ms="982" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postLogInAsUserCreated -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.api.automation.tests.SampleApiTest@6af9fcb2]" started-at="2025-11-12T02:38:45 SAST" name="tearDown" finished-at="2025-11-12T02:38:45 SAST" duration-ms="2" status="PASS">
+        </test-method> <!-- postActivity -->
+        <test-method signature="getActivitiesById()[pri:3, instance:com.api.automation.tests.ActivityDemoApiTest@291a7e3c]" started-at="2025-11-24T23:39:57 SAST" name="getActivitiesById" description="Get Activities By ID" finished-at="2025-11-24T23:39:58 SAST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getActivitiesById -->
+        <test-method signature="putActivitiesById()[pri:4, instance:com.api.automation.tests.ActivityDemoApiTest@291a7e3c]" started-at="2025-11-24T23:39:58 SAST" name="putActivitiesById" description="Put Activities By ID" finished-at="2025-11-24T23:39:59 SAST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putActivitiesById -->
+        <test-method signature="deleteActivitiesById()[pri:5, instance:com.api.automation.tests.ActivityDemoApiTest@291a7e3c]" started-at="2025-11-24T23:39:59 SAST" name="deleteActivitiesById" description="delete Activities By ID" finished-at="2025-11-24T23:39:59 SAST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteActivitiesById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.api.automation.tests.ActivityDemoApiTest@291a7e3c]" started-at="2025-11-24T23:39:59 SAST" name="tearDown" finished-at="2025-11-24T23:39:59 SAST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.api.automation.tests.SampleApiTest -->
+      </class> <!-- com.api.automation.tests.ActivityDemoApiTest -->
     </test> <!-- API Tests -->
   </suite> <!-- API Test Suite -->
 </testng-results>

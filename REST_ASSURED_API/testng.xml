@@ -2,7 +2,8 @@
 <suite name="API Test Suite" verbose="1">
     <test name="API Tests">
         <classes>
-            <class name="com.api.automation.tests.SampleApiTest"/>
+            <class name="com.api.automation.tests.ActivityDemoApiTest"/>
         </classes>
     </test>
+
 </suite>

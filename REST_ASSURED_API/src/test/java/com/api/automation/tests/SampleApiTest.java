@@ -13,6 +13,8 @@ import io.qameta.allure.Story;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
+import static com.api.automation.utils.JsonUtils.readJsonFile;
+
 public class SampleApiTest extends BaseTest {
 public String generatedUserPayLoad;
 
@@ -20,15 +22,17 @@ public String generatedUserPayLoad;
     @Test(description = "Register A Users", priority = 0)
     @Severity(SeverityLevel.CRITICAL)
     @Story("Create A User")
-    public void getUsersTest() {
+    public void postRegisterAUsersTest() {
 
         String payload = PayloadGenerator.createRandomUserPayload();
         Response response = ApiRequestBuilder.post("/api/auth/signup",payload);
         ApiResponseValidator.validateStatusCode(response, 200);
         ApiResponseValidator.validateResponseBody(response,"User registered successfully!");
         generatedUserPayLoad=payload;
-        Allure.addAttachment("Full Response", "application/json", response.asPrettyString(), ".json");
+
     }
+
+
     @Test(description = "Log In As A Created Users",priority = 1)
     @Severity(SeverityLevel.CRITICAL)
     @Story("Login As A User")
@@ -44,7 +48,33 @@ public String generatedUserPayLoad;
         // Store globally
         SessionContext.setToken(token);
         SessionContext.setUserId(userId);
-        Allure.addAttachment("Full Response", "application/json", response.asPrettyString(), ".json");
+
     }
+
+
+    @Test(description = "Create Account",priority = 2)
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Account")
+    public void postCreateAccount() {
+
+        String payload = JsonUtils.readJsonFile("src/test/resources/payloads/CreateAccount.json");
+        Response response = ApiRequestBuilder.post("api/accounts",payload);
+        ApiResponseValidator.validateStatusCode(response, 200);
+
+        //store values globally
+        //SessionContext.setAccountNumber(response.jsonPath().getString("accountNumber"));
+
+    }
+
+    @Test(description = "Get Created Accounts",priority = 3)
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Account")
+    public void getAccounts() {
+
+        Response response = ApiRequestBuilder.get("api/accounts/user");
+        ApiResponseValidator.validateStatusCode(response, 200);
+
+    }
+
 
 }

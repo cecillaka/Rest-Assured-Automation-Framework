@@ -1,8 +1,7 @@
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\main\java\com\api\automation\constants\FrameworkConstants.java
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\main\java\com\api\automation\core\AllureRestAssuredFilter.java
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\main\java\com\api\automation\core\ApiRequestBuilder.java
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\main\java\com\api\automation\core\ApiResponseValidator.java
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\main\java\com\api\automation\core\BaseApi.java
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\main\java\com\api\automation\core\SessionContext.java
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\main\java\com\api\automation\pojo\RequestPayload.java
-C:\Users\cecil\Desktop\REST_ASSURED_API\src\main\java\com\api\automation\utils\ConfigReader.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\main\java\com\api\automation\constants\FrameworkConstants.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\main\java\com\api\automation\core\ApiRequestBuilder.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\main\java\com\api\automation\core\ApiResponseValidator.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\main\java\com\api\automation\core\BaseApi.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\main\java\com\api\automation\core\SessionContext.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\main\java\com\api\automation\pojo\RequestPayload.java
+C:\Users\cecil\IdeaProjects\Rest-Assured-Automation-Framework\REST_ASSURED_API\src\main\java\com\api\automation\utils\ConfigReader.java
